@@ -7,12 +7,12 @@ const Attchments = () => {
 
   const handleAttachmentClick = () => {
     setModalOpen(true);
-    // Additional logic for handling attachment click
+   
   };
 
   return (
     <div>
-      {/* Your component content */}
+    
       <button onClick={handleAttachmentClick} className="btn">Open Modal</button>
       {isModalOpen && <Modal onClose={() => setModalOpen(false)} />}
     </div>
